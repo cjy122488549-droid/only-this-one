@@ -1,3 +1,66 @@
 /* Additions only; the original palette and mobile layout stay unchanged. */
 .v33-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.v33-actions button{width:auto;flex:1;font-size:13px}textarea{width:100%;min-height:160px;margin-top:12px;padding:14px;border:1px solid var(--line);border-radius:6px;background:var(--paper);color:var(--ink);font:inherit;font-size:16px}.closing .secondary,#download{margin-top:12px}
 .interpret:first-of-type{margin-top:12px;padding-top:12px;border-top:0}.interpret h2{font-size:25px;line-height:1.65}.interpret>p{font-size:15px;line-height:1.95}.copy-evidence-list{padding-left:20px;margin:16px 0 22px}.copy-evidence{padding-left:3px;margin:18px 0}.copy-evidence p{margin:5px 0;font-size:14px}.copy-evidence small{display:block;color:var(--muted);font-size:11px;overflow-wrap:anywhere}.report-controls button+button{margin-top:12px}.report-document{min-width:0}@media(max-width:500px){.interpret h2{font-size:23px}}
+.analysis-details>summary{padding:4px 0;line-height:1.8}.analysis-details>.paper{padding:18px 0;border:0;box-shadow:none}.story-driver{padding-top:12px;margin-top:12px}.story-driver+.story-driver{border-top:1px solid var(--line);margin-top:28px}.story-driver h2{font-size:24px}.story-driver h3{font-family:"Songti SC",serif;font-weight:500;font-size:21px}.story-evidence p{font-size:14px}.story-evidence small{display:block;font-size:11px;color:var(--muted);overflow-wrap:anywhere}.private-choice{display:flex;gap:8px;align-items:flex-start;font-size:14px}.private-choice input{margin-top:7px;accent-color:var(--accent)}.report-privacy{padding:0 10px}#analysis-details p{overflow-wrap:anywhere}
+.benchmark-head h1{font-size:34px;line-height:1.65;letter-spacing:.6px}.benchmark-subtitle{font-size:15px;letter-spacing:.5px}.benchmark-act{padding:30px 26px}.benchmark-act h2{font-size:23px;line-height:1.8;letter-spacing:.5px;margin:0 0 24px}.benchmark-act>p{font-size:16px;line-height:2.05;margin:0 0 22px;overflow-wrap:anywhere}.benchmark-act>p:last-child{margin-bottom:0}.benchmark-act h3{font-size:17px;line-height:1.9;margin:28px 0 16px;font-weight:600}@media(max-width:500px){.benchmark-head h1{font-size:29px}.benchmark-act{padding:27px 21px}.benchmark-act h2{font-size:22px}}@media(max-width:350px){.benchmark-head h1{font-size:24px}.benchmark-act{padding:24px 18px}.benchmark-act h2{font-size:21px}.benchmark-act>p{line-height:2}}
+/* NARRATIVE-1.2: presentation only. No editorial sentences or match rules live here. */
+.reading-result{--reading-serif:"Songti SC","Noto Serif CJK SC",SimSun,serif;--reading-text:#2d4037;background:var(--bg);color:var(--ink)}
+.reading-result:before{display:none}
+.reading-result .top{max-width:680px;padding:23px 28px 18px;border:0;letter-spacing:.8px}
+.reading-result .top .edition{display:none}
+.reading-result main{max-width:680px;padding:0 36px}
+.reading-result #report-content{min-width:0}
+.reading-result .editorial-cover{min-height:58vh;min-height:58svh;padding:54px 0 30px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.reading-result .editorial-imprint{width:30px;height:1px;background:#9aa996;margin:0 auto 32px}
+.reading-result .editorial-cover h1{font-family:var(--reading-serif);font-size:clamp(26px,8vw,38px);font-weight:500;line-height:1.72;letter-spacing:.04em;margin:0;max-width:100%;word-break:normal;overflow-wrap:anywhere;text-wrap:balance;color:var(--ink)}
+.reading-result .editorial-cover .benchmark-subtitle{font-size:13px;font-weight:400;letter-spacing:.08em;line-height:1.95;color:#52685a;margin:27px 0 0;max-width:100%}
+.reading-result .editorial-subtitle-space{height:12px}
+.reading-result .editorial-cover[data-prototype="multiple"] h1{font-size:clamp(25px,6.4vw,32px);line-height:1.75;letter-spacing:.025em}
+.reading-result .editorial-cover[data-prototype="undetermined"]{min-height:38vh;min-height:38svh;padding-top:35px;padding-bottom:20px}
+.reading-result .editorial-reading-cue{display:block;position:relative;flex:0 0 auto;width:14px;height:36px;margin:44px auto 0;pointer-events:none}
+.reading-result .editorial-reading-cue:before{content:"";position:absolute;width:1px;height:30px;left:6px;top:0;background:#81947f}
+.reading-result .editorial-reading-cue:after{content:"";position:absolute;width:6px;height:6px;border-right:1px solid #81947f;border-bottom:1px solid #81947f;left:3px;bottom:6px;transform:rotate(45deg)}
+.reading-result .report-coverage{margin:0 0 55px;padding:18px 0 20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);text-align:center;color:#52685a;font-size:12px;line-height:1.9}
+.reading-result .report-coverage p{margin:0 0 4px;font-size:13px;font-weight:500;letter-spacing:.06em;color:var(--ink)}
+.reading-result .report-coverage .seal{border:0;border-radius:0;padding:0;margin:0;background:transparent;color:#52685a;font-size:12px;letter-spacing:.01em;line-height:1.9}
+.reading-result .report-coverage.is-limited{border-left:2px solid #6a8068;padding:14px 12px;background:#eef0e6;text-align:left;margin-top:0}
+.reading-result .report-coverage.is-limited p{font-size:14px;letter-spacing:0}
+.reading-result .editorial-chapter{background:transparent;border:0;border-radius:0;box-shadow:none;padding:0 0 65px;margin:0;color:var(--reading-text);max-width:100%;min-width:0}
+.reading-result .editorial-chapter+.editorial-chapter{border-top:1px solid var(--line);padding-top:55px}
+.reading-result .editorial-chapter>h2{font-family:var(--reading-serif);font-size:22px;font-weight:500;line-height:1.85;letter-spacing:.05em;margin:0 0 33px;color:var(--ink)}
+.reading-result .editorial-chapter>.eyebrow{font-size:11px;line-height:1.8;letter-spacing:2px;margin:0 0 31px;color:#4b6c56;font-weight:600}
+.reading-result .editorial-chapter>p,.reading-result .story-driver>p{font-family:var(--reading-serif);font-size:17px;font-weight:400;line-height:1.95;letter-spacing:.025em;color:var(--reading-text);margin:0 0 25px;line-break:strict;word-break:normal;overflow-wrap:anywhere}
+.reading-result .editorial-chapter>p:last-child{margin-bottom:0}
+.reading-result .editorial-chapter .story-driver{padding-top:0;margin-top:0}
+.reading-result .editorial-chapter .story-driver+.story-driver{padding-top:35px;margin-top:38px}
+.reading-result .story-driver h2{font-family:var(--reading-serif);font-size:21px;line-height:1.8;margin:0 0 22px;font-weight:500}
+.reading-result .story-driver h3{font-family:var(--reading-serif);font-size:20px;line-height:1.9;margin:24px 0;font-weight:500}
+.reading-result .story-evidence p{font-family:var(--reading-serif);font-size:16px;line-height:1.95;font-weight:400;color:var(--reading-text)}
+.reading-result .story-evidence small{font-size:11px;line-height:1.8;margin:8px 0 23px}
+.reading-result .story-driver .try{margin-top:29px;padding:0 0 0 17px;font-size:14px;line-height:1.9}
+.reading-result .editorial-chapter .editorial-postscript-title{font-family:var(--reading-serif);font-size:17px;font-weight:500;line-height:1.9;letter-spacing:.08em;margin:65px 0 21px;padding-top:29px;border-top:1px solid var(--line)}
+.reading-result .editorial-chapter .editorial-postscript{margin:0 0 12px;padding-left:18px;border-left:1px solid #99aa91;font-size:17px;line-height:1.95}
+.reading-result .editorial-chapter[data-story-act="IV"]{padding-bottom:74px}
+.reading-result .report-privacy{font-size:12px;line-height:1.9;margin:0 0 15px;padding:0;text-align:left;color:#52685a}
+.reading-result .analysis-details{background:transparent;border-left:0;border-right:0;border-bottom:1px solid var(--line);border-top:1px solid var(--line);border-radius:0;box-shadow:none;margin:0;padding:8px 0}
+.reading-result .analysis-details>summary{min-height:52px;display:list-item;padding:14px 0;font-size:13px;font-weight:500;line-height:1.9;letter-spacing:.02em;color:var(--ink)}
+.reading-result .analysis-details .eyebrow{font-size:11px;line-height:1.9;letter-spacing:1px;margin:19px 0}
+.reading-result .analysis-details>.paper{margin:20px 0;padding:24px 0;border-top:1px solid var(--line)}
+.reading-result .analysis-details .reviewitem{min-height:52px;gap:12px}
+.reading-result .analysis-details .reviewitem>span{min-width:0}
+.reading-result .analysis-details p{color:#40574a;line-height:1.9}
+.reading-result .report-controls{background:transparent;border:0;box-shadow:none;border-radius:0;margin:42px 0 0;padding:0 0 24px}
+.reading-result .report-controls .private-choice{min-height:48px;padding:10px 0;line-height:1.9;font-size:13px;gap:10px;align-items:flex-start}
+.reading-result .private-choice input{width:18px;height:18px;flex:0 0 18px;margin-top:4px}
+.reading-result .report-controls button{min-height:52px;border-radius:3px;font-size:14px;font-weight:500;letter-spacing:.06em}
+.reading-result .report-controls #copy{margin-top:23px}
+.reading-result .report-controls .secondary{background:transparent;border-color:#afbaaa}
+.reading-result .report-controls .textbutton{margin-top:14px}
+.reading-result footer{max-width:680px;margin:28px auto 0;padding-top:30px;border-top:1px solid var(--line)}
+@media(max-width:500px){.reading-result main{padding:0 26px}.reading-result .top{padding:21px 26px 15px}.reading-result .editorial-cover{padding-top:41px;padding-bottom:28px}.reading-result .editorial-chapter>h2{font-size:21px;letter-spacing:.035em}.reading-result .editorial-chapter+.editorial-chapter{padding-top:49px}.reading-result .editorial-chapter{padding-bottom:58px}.reading-result .editorial-chapter[data-story-act="IV"]{padding-bottom:68px}}
+@media(max-width:350px){.reading-result main{padding:0 22px}.reading-result .top{padding-left:22px;padding-right:22px}.reading-result .editorial-cover h1{font-size:25px;letter-spacing:.025em}.reading-result .editorial-cover[data-prototype="multiple"] h1{font-size:24px}.reading-result .editorial-cover .benchmark-subtitle{font-size:12px;letter-spacing:.045em}.reading-result .editorial-chapter>h2{font-size:20px}.reading-result .editorial-chapter>p{font-size:17px;line-height:1.95}.reading-result .report-coverage .seal{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.reading-result *,.reading-result *:before,.reading-result *:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media print{.reading-result .editorial-cover{min-height:0;padding:20px 0 35px}.reading-result .editorial-reading-cue{display:none}.reading-result .editorial-chapter{break-inside:auto}.reading-result .report-controls{display:none}.reading-result .report-coverage{margin-bottom:30px}}
+/* Keep dimension names intact at title line breaks; canonical title text is unchanged. */
+.reading-result .editorial-cover h1[data-title-wrap="dimensions"]{text-wrap:wrap}
+.reading-result .title-dimension{display:inline-block;white-space:nowrap;max-width:100%}

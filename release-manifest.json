@@ -1,0 +1,27 @@
+{
+  "release": "V3.3-BETA-RC1",
+  "published": false,
+  "physicalSafariVerified": false,
+  "candidateBlocksInOfficialReport": 0,
+  "bankVersion": "V3.3",
+  "rulesVersion": "3.3.1",
+  "copyVersion": "COPY-1.0",
+  "contentVersion": "NARRATIVE-1.4-PHASE4",
+  "files": {
+    "index.html": "b1c7a287f19513ba9ade2c18fe7467c21b32f020d22619907fc6bae9f714b09c",
+    "result-v33.html": "c7ba370bffd93a956615630729903db4fffe454ed8102add35c4f2b9ab8eb82e",
+    "style.css": "6cbde61424ada604b66547b2550d5bbee8043f9b16e140e4feff76ec1396515e",
+    "v33-bank.js": "ccebb7714177bf1622b0c64fad15829dd30566e53509e2c546db3906d233f344",
+    "v33-benchmark-copy.js": "263ded2e082efd66cea639b237778b36a4f5eed8c8c824629d41e62c02967e73",
+    "v33-benchmark.js": "947fb03a665c1b8383a8e6860aac45fd118d345173e8447fb996e81b3f811d8b",
+    "v33-copy.js": "d0114cdd8cc718c84e78bc906040dfb837eaf0829eac29e51e13f555de0473bd",
+    "v33-engine.js": "69210119daba930f49cd0e27234328702be06cef4fb4a4a48e080628e9c7c590",
+    "v33-narrative.js": "6b51cacebc2a70366594305234fbc8895b380c4cd5d2ab81a3ae1596d8fe6e62",
+    "v33-report.js": "27fe3be7949549986e842fbadd18fb54d92a32a9779d22326e84ce1cf0f2ea65",
+    "v33-story-copy.js": "64c02d566100c30c22accd293a1fd9de754daceb19386d82b98c22db75aa0d3a",
+    "v33-story.js": "a69f3a0ab815f36f5a1a06130ee657c06d0d1906d537bec87b465928378147cb",
+    "v33-ui.js": "4222ebcaf1b68e186ba25a6944706772bb0733c4638ee908645fb0e4394fc680",
+    "v33.css": "9ee033c595f35338bbfbfca3afcefa1cc7786209a43648afd06a1107ab03dff9",
+    "v33.html": "b1c7a287f19513ba9ade2c18fe7467c21b32f020d22619907fc6bae9f714b09c"
+  }
+}
